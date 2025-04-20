@@ -1,0 +1,35 @@
+{
+    "upcomingMovies": [
+      {
+        "id": 1,
+        "title": "The Exorcism",
+        "image": "images/exorcism.jpg",
+        "detailsPage": "moviedetailsupcome.html?movie=exorcism"
+      },
+      {
+        "id": 2,
+        "title": "Despicable Me 4",
+        "image": "images/despicableme4.jpg",
+        "detailsPage": "moviedetailsupcome.html?movie=despicableme4"
+      },
+      {
+        "id": 3,
+        "title": "Twisters",
+        "image": "images/twisters.png",
+        "detailsPage": "moviedetailsupcome.html?movie=twisters"
+      },
+      {
+        "id": 4,
+        "title": "Deadpool vs Wolverine",
+        "image": "images/deadpool.jpg",
+        "detailsPage": "moviedetailsupcome.html?movie=deadpool"
+      },
+      {
+        "id": 5,
+        "title": "My Boo",
+        "image": "images/myboo.png",
+        "detailsPage": "moviedetailsupcome.html?movie=myboo"
+      }
+    ]
+  }
+  

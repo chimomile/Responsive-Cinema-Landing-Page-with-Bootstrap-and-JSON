@@ -1,0 +1,65 @@
+{
+    "movies": [
+      {
+        "id": "insideout2",
+        "title": "INSIDE OUT 2",
+        "poster": "images/insideout2.png"
+      },
+      {
+        "id": "badboys",
+        "title": "BAD BOYS: RIDE OR DIE",
+        "poster": "images/badboys.png"
+      },
+      {
+        "id": "dilan",
+        "title": "DILAN 1983 WO AI NI",
+        "poster": "images/dilan.png"
+      },
+      {
+        "id": "grandma",
+        "title": "HOW TO MAKE MILLIONS BEFORE GRANDMA DIES",
+        "poster": "images/grandma.png"
+      },
+      {
+        "id": "garfield",
+        "title": "THE GARFIELD MOVIE",
+        "poster": "images/garfield.png"
+      },
+      {
+        "id": "haikyu",
+        "title": "HAIKYU!! THE DUMPSTER BATTLE",
+        "poster": "images/haikyu.png"
+      },
+      {
+        "id": "pakutanahjawa",
+        "title": "PAKU TANAH JAWA",
+        "poster": "images/pakutanahjawa.png"
+      },
+      {
+        "id": "strangers",
+        "title": "THE STRANGERS: CHAPTER 1",
+        "poster": "images/strangers.png"
+      },
+      {
+        "id": "conan",
+        "title": "DETECTIVE CONAN VS KID THE PHANTOM THIEF",
+        "poster": "images/conan.png"
+      },
+      {
+        "id": "theplot",
+        "title": "THE PLOT",
+        "poster": "images/theplot.png"
+      },
+      {
+        "id": "ipar",
+        "title": "IPAR ADALAH MAUT",
+        "poster": "images/ipar.png"
+      },
+      {
+        "id": "sengkolo",
+        "title": "SENGKOLO: MALAM SATU SURO",
+        "poster": "images/sengkolo.png"
+      }
+    ]
+  }
+  

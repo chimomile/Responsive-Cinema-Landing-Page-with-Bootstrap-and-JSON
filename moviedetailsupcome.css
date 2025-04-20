@@ -1,0 +1,560 @@
+   
+ /* General styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Header and navigation */
+/* Header and navigation */
+.header {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(200, 20, 80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgb(200, 20, 80);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: rgb(200, 20, 80);
+}
+
+nav ul li {
+    margin-top: -10px;
+    padding: 10px 25px;
+    justify-content: right;
+    background-color: rgb(200, 20, 80);
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.4s;
+    background-color: rgb(200, 20, 80);
+}
+
+nav ul li a i {
+    margin-right: 8px;
+    background-color: rgb(200, 20, 80);
+}
+
+nav ul li a:hover {
+    color: bisque;
+    transition: color 0.4s;
+}
+
+/* Ensure dropdown link is styled correctly */
+nav ul li.dropdown > a {
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    margin: 0 -25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(200, 20, 80);
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Additional styling for "About Us" link to ensure no residual styling */
+#aboutus-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    color: white;
+    background-color: rgb(200, 20, 80);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: color 0.4s;
+    margin: 0px;
+
+}
+
+#aboutus-button i {
+    margin-right: 8px;
+}
+
+#aboutus-button:hover {
+    color: bisque;
+    transition: color 0.4s;
+}
+ 
+ #upcomedetails{
+        width: 100%;
+        height: 1000px;
+        background-color: beige;
+        display: block;
+        padding: 30px;
+    }
+    .movie-detail {
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr; /* 2 kolom yang setara */
+        gap: 20px;
+    }
+    .movie-box {
+        margin-top: 100px;
+        border: 1px solid #ccc;
+        padding: 50px;
+        margin-left: 200px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 1000px;
+        max-height: 850px;
+        background-color: #f9f9f9;
+    }
+    .video-box {
+            max-width: 560px;
+            margin-left: 30px;
+            text-align: center;
+            justify-content: center;
+        }
+    iframe {
+        width: 150%;
+        height: 473px;
+        justify-content: center;
+        } 
+    .bot{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        width: 825px;
+    }
+    /* CSS untuk mengatur bagian kiri */
+    .bot .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
+
+    /* CSS untuk bagian kanan */
+    .bot .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Memulai konten dari atas */
+}
+
+/* CSS untuk gaya teks */
+#title {
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: 30px;
+    color: #9b005b;
+}
+
+.lefter{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* CSS untuk sinopsis */
+.righter {
+    margin-top: 30px; /* Memberi jarak atas dari elemen sebelumnya */
+    color: #9b005b;
+}
+
+.right p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.right h2 {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 2px;
+    color: #480b54;
+}
+.lefter2{
+    text-align: justify;
+    line-height: 1.6;
+    margin: 20px;
+    font-size: 15px;
+    color: #480b54;
+}
+
+
+/* Style untuk dropdown */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content2 a:hover {
+    background-color: rgb(200, 20, 80);
+    color: white;
+    padding : 12px 25px;
+}
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+
+  .popup-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width:800px;
+    max-width: 1000px; /* Set a maximum width */
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.popup-content h2 {
+    margin-bottom: 20px;
+}
+
+.popup-content h4 {
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.hide {
+    display: none;
+}
+
+footer{
+    background-color: rgb(200, 20, 80);
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+.end {
+    position: absolute;
+    color: rgb(18, 9, 46);
+    bottom: 35px;
+    font-size: 14px;
+}
+
+
+/* Tombol hamburger (default: hidden) */
+.hamburger {
+    display: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgb(200, 20, 80);
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    /* Ubah ukuran Lechinema di mobile */
+    .logo {
+        font-size: 18px; /* Ukuran lebih kecil */
+    }
+
+    #upcomedetails{
+        padding-top: 20%;
+        height: auto;
+    }
+
+    .movie-detail {
+        margin-top: 20px;
+        gap: 5px;
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .movie-box {
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 0; /* Remove left margin */
+        max-width: 100%; /* Ensure it fits the screen */
+        grid-template-columns: 1fr;
+    }
+
+    .video-box {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    iframe {
+        width: 80%;
+        height: 300px;
+    }
+
+    #title {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    #schedule {
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .lefter {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .righter {
+        margin-top: 20px; /* Adjust top margin */
+    }
+
+    .right h2 {
+        font-size: 16px;
+    }
+
+    .bot {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr; /* Single column layout */
+        width: 100%;
+    }
+
+    .bot .left {
+        order: 1;
+    }
+
+    .bot .right {
+        order: 2;
+        margin-top: 20px; /* Adjust top margin for spacing */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+/* Ubah ukuran Lechinema di mobile */
+.logo {
+    font-size: 18px; /* Ukuran lebih kecil */
+}
+
+#upcomedetails{
+    padding-top: 10%;
+    height: auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan konten */
+    padding-right: 100px;
+    margin-left: -150px;
+}
+
+.movie-detail {
+    width: 80%;
+    margin-top: 20px;
+    gap: 5px;
+    grid-template-columns: 1fr; /* Single column layout */
+    align-items: center; /* Pusatkan konten */
+
+}
+
+.movie-box {
+    margin-top: 20px;
+    padding: 10px;
+    max-width: 100%; /* Ensure it fits the screen */
+    max-height: 100%;
+    grid-template-columns: 1fr;
+    align-items: center; /* Pusatkan konten */
+}
+
+.video-box {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+#title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#schedule {
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.lefter {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.righter {
+    margin-top: 20px; /* Adjust top margin */
+}
+
+.right h2 {
+    font-size: 16px;
+}
+
+.bot {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr; /* Single column layout */
+    width: 100%;
+}
+
+.bot .left {
+    order: 1;
+}
+
+.bot .right {
+    order: 2;
+    margin-top: 20px; /* Adjust top margin for spacing */
+}
+}
